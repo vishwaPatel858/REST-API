@@ -40,4 +40,7 @@ public class UserServices {
 	public void deleteUser(int id) {
 		userRepo.deleteById(id);
 	} */
+	
+	private int uerId;
+	private String userName;
 }
